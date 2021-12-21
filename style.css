@@ -1,0 +1,227 @@
+/* Text */
+BODY {	background-image : url( "./background.png" );
+	background-repeat : repeat-x;
+	font-family : PT Sans ;
+	font-size : 14px;
+	color : rgb(51,51,51);
+	background-color : rgb(250,250,250)}
+
+.nof_ArchitectBanners1-Default{
+font-family:The Girl Next Door ; font-size:24pt; color:rgb(51,51,51) 
+}
+
+.nof_ArchitectNavbar4-Regular{
+font-family:The Girl Next Door ; font-size:16px; color:rgb(250,250,250) 
+}
+
+.nof_ArchitectNavbar5-Rollover{
+font-family:The Girl Next Door ; font-size:16px; color:rgb(0,30,78) 
+}
+
+.nof_ArchitectNavbar6-Highlighted{
+font-family:The Girl Next Door ; font-size:16px; color:rgb(250,250,250) 
+}
+
+.nof_ArchitectNavbar7-HighlightedRollover{
+font-family:The Girl Next Door ; font-size:16px; color:rgb(250,250,250) 
+}
+
+.nof_ArchitectNavbar9-Regular{
+font-family:The Girl Next Door ; font-size:13px; color:rgb(0,30,78) 
+}
+
+.nof_ArchitectNavbar10-Rollover{
+font-family:The Girl Next Door ; font-size:13px; color:rgb(0,30,78) 
+}
+
+.nof_ArchitectNavbar11-Highlighted{
+font-family:The Girl Next Door ; font-size:13px; color:rgb(0,30,78) 
+}
+
+.nof_ArchitectNavbar12-HighlightedRollover{
+font-family:The Girl Next Door ; font-size:13px; color:rgb(0,30,78) 
+}
+
+
+P {
+	font-family: PT Sans ;
+	font-size : 14px;
+	color : rgb(51,51,51);
+	line-height : 1.5em}
+
+.TextObject{
+	font-family: PT Sans ;
+	font-size : 14px;
+	color : rgb(51,51,51)
+}
+
+.TextNavBar{
+	font-family: PT Sans ;
+	font-size : 14px;
+	color : rgb(0,30,78)
+}
+
+A:visited {
+	font-family: PT Sans ;
+	color : rgb(133,147,169);
+	font-size : 14px}
+
+A:active {
+	font-family: PT Sans ;
+	color : rgb(93,102,117);
+	font-size : 14px}
+
+H1 {
+	font-family: The Girl Next Door ;
+	color : rgb(0,30,78)}
+
+H2 {
+	font-family: The Girl Next Door ;
+	color : rgb(0,30,78)}
+
+H3 {
+	font-family: The Girl Next Door ;
+	color : rgb(0,30,78)}
+
+/* Accordiion */
+.ui-accordion{
+	border: 1px solid #333333 !important;
+	border-top: none !important;
+	background-color: transparent !important
+}
+ .ui-accordion a {
+	border: none !important
+}
+div.ui-accordion.selected a.head.selected  {
+	background-image: url( "./AccordionTabOpen.png" ) !important;
+	color: #fafafa !important
+}
+.ui-accordion a.head {
+	background-image: url( "./AccordionTabClosed.png" ) !important;
+	background-color: transparent !important;
+	border: none !important;
+	font-size: 11px !important;
+	color: #fafafa !important;
+	font-weight: normal !important;
+	text-indent: 25px !important;
+	height: 30px !important;
+	line-height: 30px !important
+}
+.ui-accordion .ui-accordion-panel a {
+	display: inline !important
+}
+
+/* Tabs */
+.ui-tabs-panel{
+	border: 1px solid #333333 !important;
+	padding: 0px !important;
+	background-color: transparent !important
+}
+.ui-tabs-nav a {
+	background-image: url( "./tab_top.png" ) !important;
+	font-weight: normal !important;
+	color: #fafafa !important;
+	font-size: 11px !important;
+	line-height: 22px !important
+}
+.ui-tabs-nav .ui-tabs-selected a {
+	color: #fafafa !important
+}
+.ui-tabs-nav a span  {
+	background-image: url( "./tab_top.png" ) !important;
+	max-height: 50px;
+	height: 22px !important
+}
+.ui-tabs-nav a:hover span{
+	background-position: 0 -50px !important
+}
+.ui-tabs-nav a:hover{
+	background-position: 100% -150px !important;
+	color: #fafafa !important
+}
+
+/* Toggle Pane */
+div.TogglePaneFancyHeader {
+	font-family: inherit !important;
+	font-size: 11px !important;
+	font-weight: normal !important;
+	line-height: 30px;
+	height: 30px !important;
+	padding: 0px !important;
+	text-indent: 25px;
+	cursor: pointer;
+	border: 1px solid #333333 !important;
+	border-width: 0px 1px !important;
+	background-color: transparent !important;
+	background-image: url( "./TogglePaneOpen.png" ) !important;
+	background-position: 0% 0% !important;
+	color: #f2f2f2 !important
+}
+div.TogglePaneFancyHeaderClosed {
+	background-color: transparent !important;
+	background-image: url( "./TogglePaneClosed.png" ) !important;
+	background-position: 0% 0% !important;
+	color: #fafafa !important
+}
+div.TogglePanePlainContent {
+	border: 1px solid #333333 !important;
+	border-top: none !important;
+	background-color: transparent !important
+}
+
+UL {
+	font-family: PT Sans ;
+	font-size : 14px;
+	color : rgb(51,51,51)
+}
+
+OL {
+	font-family: PT Sans ;
+	font-size : 14px;
+	color : rgb(51,51,51)
+}
+
+A:hover {
+	font-family: Open Sans ;
+	color : rgb(173,191,219);
+	font-size : 14px}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal{
+    background: transparent url( "Images\\next-horizontal.png" ) no-repeat 0 0}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-horizontal{
+    background-image: url( "Images\\prev-horizontal.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal{
+    background: transparent url( "Images\\prev-horizontal.png" ) no-repeat 0 0}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-horizontal{
+    background-image: url( "Images\\next-horizontal.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical{
+    background: transparent url( "Images\\next-vertical.png" ) no-repeat 0 0}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical{
+    background: transparent url( "Images\\prev-vertical.png" ) no-repeat 0 0}
+
+
+A {
+	font-family: PT Sans ;
+	color : rgb(0,30,78);
+	font-size : 14px
+}
+
+
+H4 {
+	font-family: The Girl Next Door ;
+	color : rgb(0,30,78)}
+
+H5 {
+	font-family: The Girl Next Door ;
+	color : rgb(0,30,78)}
+
+H6 {
+	font-family: The Girl Next Door ;
+	color : rgb(0,30,78)}
